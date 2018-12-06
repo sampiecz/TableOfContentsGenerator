@@ -121,7 +121,7 @@ var styling =
 
 
 // Put table of contents in the page
-var arrayOfInsertionPoints = document.getElementsByClassName("wpb_wrapper");
+var arrayOfInsertionPoints = document.getElementsByClassName("putclassnamehere");
 var addTableOfContentsHere = arrayOfInsertionPoints[arrayOfInsertionPoints.length - 2]
 var originalInnerHTML = addTableOfContentsHere.innerHTML;
 var newInnerHTML = tableOfContents + originalInnerHTML + styling;
